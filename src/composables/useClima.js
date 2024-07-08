@@ -3,8 +3,13 @@ export default function useClima() {
 
 
     const obtenerClima = ({ciudad, pais}) => {
-        console.log('Consultando clima ciudad...', ciudad);
-        console.log('Consultando clima pais...', pais);
+      // Importando el Api kery
+        const key  = import.meta.env.VITE_API_KEY
+
+      // Obtener la lat, long
+
+
+      // Obtener el clima
     }
 
 
